@@ -1,0 +1,94 @@
+.main:before {
+    content: '';
+    background: url('img/formes.png') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main {
+    background: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.title h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+article {
+    margin-bottom: 50px;
+    border: solid white 2px;
+    padding: 20px;
+}
+
+article h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+article p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+aside .github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+aside p a {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #fff;
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+.github img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.align {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+@media (max-width: 640px) {
+    .align {
+        display: block;
+    }
+}
